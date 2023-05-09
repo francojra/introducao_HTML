@@ -1,2 +1,2 @@
-# introducao_HTML
-Texto sobre a linguagem de marcação HTML.
+# Introducao ao HTML
+Texto introdução e explicativo sobre a linguagem de marcação HTML.
