@@ -70,3 +70,15 @@ Acrescente o seguinte código na linha 8 da primeira listagem desse documento e 
 <h5>Título de nível 5</h5>
 <h6>Título de nível 6</h6>
 ```
+
+## Parágrafos do HTML
+
+Os parágrafos em um documento HTML são gerados pelas tags `<p>` e `</p>`. Os parágrafos serão dispostos na tela em forma de blocos um abaixo do outro.
+
+Use o código abaixo e adicione na linha 8 da primeira listagem desse documento.
+
+``` r
+<p>Primeiro parágrafo do texto.</p>
+<p>Segundo parágrafo do texto.</p>
+<p>Terceiro parágrafo do texto.</p>
+```
