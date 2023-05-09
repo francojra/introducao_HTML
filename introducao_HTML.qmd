@@ -59,3 +59,14 @@ Os cabeçalhos são usados para identificar páginas e seções, eles possuem ap
 ::: {.callout-note appearance="simple"}
 De acordo com as regras de SEO, é recomendado que uma página possua apenas uma tag `<h1>` que indique seu assunto, pois essa tag informa aos motores de busca qual sua principal palavra-chave.
 :::
+
+Acrescente o seguinte código na linha 8 da primeira listagem desse documento e veja a renderização em um browser.
+
+``` r
+<h1>Título de nível 1</h1>
+<h2>Título de nível 2</h2>
+<h3>Título de nível 3</h3>
+<h4>Título de nível 4</h4>
+<h5>Título de nível 5</h5>
+<h6>Título de nível 6</h6>
+```
