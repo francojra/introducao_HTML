@@ -48,6 +48,14 @@ Abaixo no código estão apresentados as principais tags utilizadas para produzi
 
 Para desenvolver páginas com conteúdo HTML podem ser usados editores de texto como bloco de notas do Windows, Nano e Emacs do Linux. Outros editores mais avançados com sintaxe highlight e autocomplete também são usados e auxiliam nos códigos os tornando mais fáceis de serem compreendidos, como exemplos tem os Sublime Text, Atom, Brackets, RStudio e Visual Studio Code.
 
+## Tags do HTML
 
+As tags de um documento HTML são representadas por nomes específicos que aparecem entre os sinais `<` e `>`. Algumas tags precisam ser abertas e fechadas, ao ser fechada é necessário utilizar uma barra, por exemplo, `</body>`. A tag `meta` não precisa ser fechada.
 
+## Cabeçalhos do HTML
 
+Os cabeçalhos são usados para identificar páginas e seções, eles possuem aparência diferenciada do restante do texto. Há seis níveis de cabeçalhos/títulos que são usados pelas tags `h1`, `h2`, `h3`, `h4`, `h5` e `h6`.
+
+::: {.callout-note appearance="simple"}
+De acordo com as regras de SEO, é recomendado que uma página possua apenas uma tag `<h1>` que indique seu assunto, pois essa tag informa aos motores de busca qual sua principal palavra-chave.
+:::
