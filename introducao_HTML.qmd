@@ -39,3 +39,15 @@ Abaixo no código estão apresentados as principais tags utilizadas para produzi
 **Linha 5:** a tag `title` define o título da página. Ele aparecerá na janela/aba do navegador.
 
 **Linhas 7 e 9:** abertura e fechamento da tag `body`, no qual será apresentado todo o conteúdo da página no browser. Nesse intervalo ficarão as tags que representam os títulos, textos, botões, etc.
+
+**Linha 8:** essa linha apresenta a sintaxe que pode ser usada para adição de comentários, ele não aparecerá no browser.
+
+```         
+!-- Conteúdo -->
+```
+
+Para desenvolver páginas com conteúdo HTML podem ser usados editores de texto como bloco de notas do Windows, Nano e Emacs do Linux. Outros editores mais avançados com sintaxe highlight e autocomplete também são usados e auxiliam nos códigos os tornando mais fáceis de serem compreendidos, como exemplos tem os Sublime Text, Atom, Brackets, RStudio e Visual Studio Code.
+
+
+
+
