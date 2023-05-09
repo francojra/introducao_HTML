@@ -9,4 +9,27 @@ lang: pt
 
 ## Introdução
 
-Uma página web é capaz de interpretar um código HTML e renderizá-lo de forma compreensível para o leitor exibindo textos, botões, abas, etc. através das configurações das tags dessa linguagem de marcação.
+Uma página web é capaz de interpretar um código HTML e renderizá-lo de forma compreensível para o leitor exibindo textos, botões, abas, etc. através das configurações das tags dessa linguagem de marcação. Atualmente o HTML encontra-se na versão 5.
+
+## Estrutura básica de uma página em HTML
+
+Abaixo no código estão apresentados as principais tags utilizadas para produzir um documento HTML e para que eles seja corretamente interpretado pelos browsers.
+
+``` r
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Document</title>
+</head>
+<body>
+<!-- Conteúdo -->
+</body>
+</html>
+```
+
+**Linha 1:** a instrução `DOCTYPE` deve ser a primeira a aparecer no código para indicar a versão do HTML, neste caso usamos a versão atual HTML5.
+
+**Linhas 2 e 10:** todo código HTML deve ter a abertura e o fechamento, portanto, abrimos o código com `<html>` e fechamos com `</html>`. Todas as demais tags ficam dentro desse espaço.
+
+**Linhas 3 e 6:** abertura e fechamento da tag `head` que define o cabeçalho do documento. O conteúdo nesse espaço não é visualizado no browser, apenas contém instruções do seu conteúdo. Dentro dessa tag podem ser definidos o estilo do documento e o script.
