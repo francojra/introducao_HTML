@@ -1,0 +1,12 @@
+---
+title: "Introdução ao HTML"
+author: "Jeanne Franco"
+format: html
+editor: visual
+date: 08/05/2023
+lang: pt
+---
+
+## Introdução
+
+Uma página web é capaz de interpretar um código HTML e renderizá-lo de forma compreensível para o leitor exibindo textos, botões, abas, etc. através das configurações das tags dessa linguagem de marcação.
