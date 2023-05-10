@@ -86,3 +86,9 @@ Use o código abaixo e adicione na linha 8 da primeira listagem desse documento.
 ## Imagens no HTML
 
 A inserção de imagens no HTML é feita através da tag `img`, que recebe no atributo `scr` o endereço do arquivo a ser carregado. Outros atributos são o `alt` que apresenta um texto alternativo caso a imagem não seja carregada e o `title` que é mostrado quando colocamos o cursos em cima da imagem.
+
+O código abaixo mostra a inserção da imagem `avatar.jpg`, que deve estar localizada na mesma pasta do arquivo HTML. Acrescente ao código do primeiro exemplo para visualizar a figura.
+
+``` r
+<img src="avatar.png" alt="Texto alternativo" title="Avatar" />
+```
