@@ -143,3 +143,36 @@ As tabelas são elementos que serão organizados em linhas e colunas. No HTML el
 </tr>
 </table>
 ```
+
+Existem ainda três tags que podem ser adicionadas ao código para delimitar e organizar a tabela. O `thead` é usado para o cabeçalho; o `tbody` para o corpo e o `tfoot` para uma nota de rodapé. Veja o resultado usando o código abaixo no exemplo do documento.
+
+``` r
+<table>
+<thead>
+<tr>
+<th>Produto</th>
+<th>Preço</th>
+<th>Quantidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Feijão</td>
+<td>R$ 8,75</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Arroz</td>
+<td>R$ 4,99</td>
+<td>2</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td>Total</td>
+<td></td>
+<td>R$ 18,73</td>
+</tr>
+</tfoot>
+</table>
+```
