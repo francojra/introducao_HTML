@@ -82,3 +82,7 @@ Use o código abaixo e adicione na linha 8 da primeira listagem desse documento.
 <p>Segundo parágrafo do texto.</p>
 <p>Terceiro parágrafo do texto.</p>
 ```
+
+## Imagens no HTML
+
+A inserção de imagens no HTML é feita através da tag `img`, que recebe no atributo `scr` o endereço do arquivo a ser carregado. Outros atributos são o `alt` que apresenta um texto alternativo caso a imagem não seja carregada e o `title` que é mostrado quando colocamos o cursos em cima da imagem.
