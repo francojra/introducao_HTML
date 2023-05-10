@@ -120,3 +120,26 @@ No código abaixo é mostrado como adicionar um link que direciona para um ponto
 <!--outros elementos-->
 <p id="Nota de rodapé.">Parágrafo no rodapé.</p>
 ```
+
+Note que o elemento `href` requer o sinal de serquilha (`#`).
+
+## Tabelas no HTML
+
+As tabelas são elementos que serão organizados em linhas e colunas. No HTML elas são criadas com três tags: `table` para delimitar a tabela, `tr` (table row) para indicar as linhas, e `td` para indicar as colunas (table data). O código a seguir mostra um exemplo de tabela do HTML com três linhas e duas colunas. Acrescente ao exemplo desse documento e veja o resultado.
+
+``` r
+<table>
+<tr>
+<td>Linha 1, Coluna 1</td>
+<td>Linha 1, Coluna 2</td>
+</tr>
+<tr>
+<td>Linha 2, Coluna 1</td>
+<td>Linha 2, Coluna 2</td>
+</tr>
+<tr>
+<td>Linha 3, Coluna 1</td>
+<td>Linha 3, Coluna 2</td>
+</tr>
+</table>
+```
