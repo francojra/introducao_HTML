@@ -92,3 +92,13 @@ O código abaixo mostra a inserção da imagem `avatar.jpg`, que deve estar loca
 ``` r
 <img src="avatar.png" alt="Texto alternativo" title="Avatar" />
 ```
+
+Além da tag `img`, também são utilizadas as tags `figure` para abrir e fechar o código de uma imagem e a tag `figcaption` para adicionar uma legenda na figura. Veja o código abaixo:
+
+``` r
+<figure>
+   <img src="http://meusite.com.br/assets/imagem.jpg" alt="Imagem">
+
+   <figcaption>Legenda da figura 1</figcaption>
+</figure>
+```
