@@ -102,3 +102,13 @@ Além da tag `img`, também são utilizadas as tags `figure` para abrir e fechar
    <figcaption>Legenda da figura 1</figcaption>
 </figure>
 ```
+
+## Links no HTML
+
+Os links adicionados são feitos para direcionar o leitor para outra página da internet ou para partes da mesma página. Nesses casos é utilizada a tag `a`, que possui o atributo `href` que irá indicar o destino do link.
+
+O código abaixo mostra a direção para a página do meu blog. Acrescente esse código ao primeiro exemplo dessa página. Lembre-se que ele deve ser adicionado dentro da aba `body`.
+
+``` r
+<a href="https://jeannefrancojra.quarto.pub/">Blog</a>
+```
