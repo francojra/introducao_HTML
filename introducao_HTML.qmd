@@ -112,3 +112,11 @@ O código abaixo mostra a direção para a página do meu blog. Acrescente esse 
 ``` r
 <a href="https://jeannefrancojra.quarto.pub/">Blog</a>
 ```
+
+No código abaixo é mostrado como adicionar um link que direciona para um ponto da mesma página. Pode ser utilizado para direcionar para notas de rodapé.
+
+``` r
+<a href="#Nota de rodapé.">Ir para a nota de rodapé</a>
+<!--outros elementos-->
+<p id="Nota de rodapé.">Parágrafo no rodapé.</p>
+```
