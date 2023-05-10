@@ -176,3 +176,7 @@ Existem ainda três tags que podem ser adicionadas ao código para delimitar e o
 </tfoot>
 </table>
 ```
+
+::: {.callout-note appearance="simple"}
+Por padrão, as tabelas não possuem bordas. Isso deve ser adicionado por meio das CSS.
+:::
