@@ -28,6 +28,13 @@ options(htmltools.dir.version = FALSE)
 
 # Introdução
 
+> *Nesse documento do estilo Tufte, mostrarei as diversas formas de uso
+> que esse estilo permite. Para um texto introdutório, basta escrever
+> diretamente com as citações que irão ser dispostas como notas e para
+> os cabeçalhos, usamos a sintaxe Markdown de cerquilhas (\#). Veja o
+> exemplo abaixo e observe o uso das funções do Tufte no arquivo do
+> RMarkdown (Rmd).*
+
 Os Direitos Humanos atribui que cada um de nós é um ser moral e racional
 e que devemos viver com dignidade. Todos e todas deveríamos ter acesso
 aos mesmos direitos, por isso eles são universais
@@ -183,7 +190,7 @@ library(gridExtra)
 > `fig.width`, `fig.cap`, `out.width` que adiciona um título e modifica
 > o tamanho da altura e largura do gráfico.*
 
-```{r fig-fullwidth, fig.width = 8, fig.height = 6, fig.fullwidth = TRUE, fig.cap = "A full width figure.", warning=FALSE, message=FALSE, cache=TRUE}
+```{r fig-fullwidth, echo=FALSE, fig.cap="A full width figure.", fig.fullwidth=TRUE, fig.height=6, fig.width=8, message=FALSE, warning=FALSE, cache=TRUE}
 
 ### Histogramas
 
@@ -243,8 +250,7 @@ palavras: liberdade, igualdade e fraternidade.**
 ## Figuras na coluna principal
 
 > *Além das figuras nas margens e ocupando toda a página, você também
-> pode incluir figuras restritas na coluna do panfleto. Esse é o tipo de
-> padrão das figuras no output LaTeX/HTML.*
+> pode incluir figuras restritas na coluna do panfleto.*
 
 ```{r fig-main, echo=FALSE, message=FALSE, warning=FALSE, fig.cap = "Figura na coluna principal.", cache=TRUE}
 
