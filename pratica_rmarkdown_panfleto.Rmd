@@ -1,6 +1,6 @@
 ---
-title: "Direitos Humanos no Brasil"
-runningheader: "Tufte Handout with R Markdown" # only for pdf output
+title: "Diversas formas do uso do tufte (panfleto)"
+runningheader: "Tufte com R Markdown" # only for pdf output
 subtitle: "" # only for html output
 author: "Jeanne Franco"
 date: "`r Sys.Date()`"
@@ -154,18 +154,18 @@ g4 <- ggplot(dir_hum, aes(x = Year, y = Index)) +
 gridExtra::grid.arrange(g1, g2, g3, g4)
 ```
 
-> Note no arquivo RMarkdown o uso do `fig.cap` no chunk option para
+> *Note no arquivo RMarkdown o uso do `fig.cap` no chunk option para
 > promover o título da figura. Você pode ajustar as proporções da figura
 > usando `fig.width` e `fig.height` no chunk. Os ajustes são
 > especificados em polegadas, e irão ser automaticamente escalados para
-> a margem do panfleto.
+> a margem do panfleto.*
 
 ## Conteúdo para margem
 
-> Você pode incluir qualquer assunto na margem do panfleto nomeando um
+> *Você pode incluir qualquer assunto na margem do panfleto nomeando um
 > chunck `marginfigure`. Ao contrário dos blocos chunk de código do R
 > ```` ```{r} ````, você escreve um chunk iniciando com
-> ```` ```{marginfigure} ```` e então coloca o conteúdo do chunk.
+> ```` ```{marginfigure} ```` e então coloca o conteúdo do chunk.*
 
 ```{marginfigure}
 library(rmarkdown)
@@ -174,14 +174,14 @@ library(flextable)
 library(gridExtra)
 ```
 
-## Full Width Figures
+## Figuras de largura total
 
-Você pode fazer com que a figura se organize por toda a página usando a
-opção de chunk: `fig.fullwidth = TRUE`.
+> *Você pode fazer com que a figura se organize por toda a página usando
+> a opção de chunk: `fig.fullwidth = TRUE`.*
 
-Outras opções relacionadas a esse tipo de figura podem ser usados com
-`fig.width`, `fig.cap`, `out.width` que adiciona um título e modifica o
-tamanho da altura e largura do gráfico.
+> *Outras opções relacionadas a esse tipo de figura podem ser usados com
+> `fig.width`, `fig.cap`, `out.width` que adiciona um título e modifica
+> o tamanho da altura e largura do gráfico.*
 
 ```{r fig-fullwidth, fig.width = 8, fig.height = 6, fig.fullwidth = TRUE, fig.cap = "A full width figure.", warning=FALSE, message=FALSE, cache=TRUE}
 
@@ -221,10 +221,10 @@ g4 <- ggplot(dir_hum, aes(x = Year, y = Index)) +
 gridExtra::grid.arrange(g1, g2, g3, g4)
 ```
 
-## Arbitrary Full Width Content
+## Conteúdo na largura total do panfleto
 
-Qualquer conteúdo pode ocupar toda a largura da página. O conteúdo deve
-estar cercado com `Div` e com a classe `fullwidth`.
+> *Qualquer conteúdo pode ocupar toda a largura da página. O conteúdo
+> deve estar cercado com `Div` e com a classe `fullwidth`.*
 
 ``` md
 ::: {.fullwidth}
@@ -232,19 +232,19 @@ Qualquer conteúdo aqui.
 :::
 ```
 
-Aqui está um exemplo:
+*Aqui está um exemplo:*
 
 ::: fullwidth
-As três primeiras gerações dos direitos humanos se pautam nos princípios da Revolução Francesa, a partir dessas três conhecidas palavras.
-
-Liberdade;
-Igualdade;
-Fraternidade.
+**As três primeiras gerações dos direitos humanos se pautam nos
+princípios da Revolução Francesa, a partir dessas três conhecidas
+palavras: liberdade, igualdade e fraternidade.**
 :::
 
 ## Figuras na coluna principal
 
-Além das figuras nas margens e ocupando toda a página, você também pode incluir figuras restritas na coluna do panfleto. Esse é o tipo de padrão das figuras no output LaTeX/HTML.
+> *Além das figuras nas margens e ocupando toda a página, você também
+> pode incluir figuras restritas na coluna do panfleto. Esse é o tipo de
+> padrão das figuras no output LaTeX/HTML.*
 
 ```{r fig-main, echo=FALSE, message=FALSE, warning=FALSE, fig.cap = "Figura na coluna principal.", cache=TRUE}
 
@@ -284,22 +284,16 @@ g4 <- ggplot(dir_hum, aes(x = Year, y = Index)) +
 gridExtra::grid.arrange(g1, g2, g3, g4)
 ```
 
-# Sidenotes
+# Notas laterais
 
-One of the most prominent and distinctive features of this style is the
-extensive use of sidenotes. There is a wide margin to provide ample room
-for sidenotes and small figures. Any use of a footnote will
-automatically be converted to a sidenote. [^2]
-
-[^2]: This is a sidenote that was entered using a footnote.
-
-If you'd like to place ancillary information in the margin without the
-sidenote mark (the superscript number), you can use the `margin_note()`
-function from **tufte** in an inline R expression.
-`r margin_note("This is a margin note.  Notice that there is no number preceding the note.")`
-This function does not process the text with Pandoc, so Markdown syntax
-will not work here. If you need to write anything in Markdown syntax,
-please use the `marginfigure` block described previously.
+> *Uma das mais proeminentes características do estilo panfleto é o
+> extersivo uso de notas laterais. Existe nesse documento uma ampla
+> margem para fazer uso das notas e pequenas figuras.*
+>
+> *Se você quiser colocar informações auxiliares na margem sem a marca
+> da nota lateral (o número sobrescrito), você pode usar a função*
+> `margin_note()` *do tufte em expressão inline do R.*
+> `r margin_note("O objetivo desta pesquisa foi avaliar a evolução do índice de direitos humanos no Brasil entre os anos de 1930 e 2021.")`
 
 # References
 
@@ -484,9 +478,9 @@ output:
 There is also a variant of the Tufte style in HTML/CSS named "[Envisoned
 CSS](https://github.com/nogginfuel/envisioned-css)". This style can be
 used by specifying the argument `tufte_variant = 'envisioned'` in
-`tufte_html()`[^3], e.g.
+`tufte_html()`[^2], e.g.
 
-[^3]: The actual Envisioned CSS was not used in the **tufte** package.
+[^2]: The actual Envisioned CSS was not used in the **tufte** package.
     We only changed the fonts, background color, and text color based on
     the default Tufte style.
 
