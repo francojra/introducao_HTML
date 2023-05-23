@@ -241,3 +241,9 @@ As listas de definição tem um comportamento diferente, uma vez que cada item �
 <dd>Definição 3</dd>
 </dl>
 ```
+
+## Formulários no HTML
+
+Formulários são utilizados para integrar a página HTML a algum processamento no lado servidor. Nesses casos, a página envia dados para uma aplicação (Java, PHP, .NET etc.) que recebe, trata e retorna um resultado.
+
+No HTML usamos a tag **`form`** para delimitar a área na qual se encontram os campos a serem preenchidos pelo usuário, a fim de serem enviados para processamento no back-end (a página HTML é chamada de front-end de aplicação).
