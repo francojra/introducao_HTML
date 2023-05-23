@@ -204,7 +204,7 @@ As listas servem para organizar e ordenar itens relacionados entre si. No HTML p
 Copie e cole os códigos no link do site abaixo para ver o resultado.
 
 ::: {.callout-note appearance="simple"}
-[Site para praticar HTML](https://jsfiddle.net/vs41kusf/)
+[Site para praticar HTML](https://jsfiddle.net/vs41kusf/). Clique no botão **`run`** para correr o código.
 :::
 
 Para as listas ordenadas também temos o atributo **`type`** que permite especificar o tipo de marcador a ser usado: números padrão, números romanos e letras.
@@ -228,3 +228,16 @@ Os valores permitidos usam os seguintes tipos de numeração:
 -   a - letras minúsculas
 
 -   A - letras maiúsculas
+
+As listas de definição tem um comportamento diferente, uma vez que cada item é composto por um título (**`dt`**) e uma definição (**`dd`**), semelhante ao que ocorre em dicionários. Na listagem abaixo temos esse tipo de exemplo. Utilize o site do HTML para ver o resultado.
+
+``` r
+<dl>
+<dt>Título 1</dt>
+<dd>Definição 1</dd>
+<dt>Título 2</dt>
+<dd>Definição 2</dd>
+<dt>Título 3</dt>
+<dd>Definição 3</dd>
+</dl>
+```
