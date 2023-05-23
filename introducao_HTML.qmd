@@ -193,8 +193,38 @@ As listas servem para organizar e ordenar itens relacionados entre si. No HTML p
 </ol>
 ```
 
+``` r
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+```
+
 Copie e cole os códigos no link do site abaixo para ver o resultado.
 
 ::: {.callout-note appearance="simple"}
 [Site para praticar HTML](https://jsfiddle.net/vs41kusf/)
 :::
+
+Para as listas ordenadas também temos o atributo **`type`** que permite especificar o tipo de marcador a ser usado: números padrão, números romanos e letras.
+
+``` r
+<ol type="I">
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ol>
+```
+
+Os valores permitidos usam os seguintes tipos de numeração:
+
+-   1 - números (padrão)
+
+-   i - números romanos minúsculos
+
+-   I - números romanos maiúsculos
+
+-   a - letras minúsculas
+
+-   A - letras maiúsculas
