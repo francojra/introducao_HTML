@@ -28,17 +28,17 @@ Abaixo no código estão apresentados as principais tags utilizadas para produzi
 </html>
 ```
 
-**Linha 1:** a instrução `DOCTYPE` deve ser a primeira a aparecer no código para indicar a versão do HTML, neste caso usamos a versão atual HTML5.
+**Linha 1:** a instrução **`DOCTYPE`** deve ser a primeira a aparecer no código para indicar a versão do HTML, neste caso usamos a versão atual HTML5.
 
-**Linhas 2 e 10:** todo código HTML deve ter a abertura e o fechamento, portanto, abrimos o código com `<html>` e fechamos com `</html>`. Todas as demais tags ficam dentro desse espaço.
+**Linhas 2 e 10:** todo código HTML deve ter a abertura e o fechamento, portanto, abrimos o código com **`<html>`** e fechamos com **`</html>`**. Todas as demais tags ficam dentro desse espaço.
 
-**Linhas 3 e 6:** abertura e fechamento da tag `head` que define o cabeçalho do documento. O conteúdo nesse espaço não é visualizado no browser, apenas contém instruções do seu conteúdo. Dentro dessa tag podem ser definidos o estilo do documento e o script.
+**Linhas 3 e 6:** abertura e fechamento da tag **`head`** que define o cabeçalho do documento. O conteúdo nesse espaço não é visualizado no browser, apenas contém instruções do seu conteúdo. Dentro dessa tag podem ser definidos o estilo do documento e o script.
 
-**Linha 4:** a tag `meta` especifica o conjunto de caracteres que serão usados para renderizar o texto da página. O UTF-8 contém todos os caracteres dos padrões Unicode e ASCII, sendo, portanto, o mais utilizado.
+**Linha 4:** a tag **`meta`** especifica o conjunto de caracteres que serão usados para renderizar o texto da página. O UTF-8 contém todos os caracteres dos padrões Unicode e ASCII, sendo, portanto, o mais utilizado.
 
-**Linha 5:** a tag `title` define o título da página. Ele aparecerá na janela/aba do navegador.
+**Linha 5:** a tag **`title`** define o título da página. Ele aparecerá na janela/aba do navegador.
 
-**Linhas 7 e 9:** abertura e fechamento da tag `body`, no qual será apresentado todo o conteúdo da página no browser. Nesse intervalo ficarão as tags que representam os títulos, textos, botões, etc.
+**Linhas 7 e 9:** abertura e fechamento da tag **`body`**, no qual será apresentado todo o conteúdo da página no browser. Nesse intervalo ficarão as tags que representam os títulos, textos, botões, etc.
 
 **Linha 8:** essa linha apresenta a sintaxe que pode ser usada para adição de comentários, ele não aparecerá no browser.
 
@@ -50,11 +50,11 @@ Para desenvolver páginas com conteúdo HTML podem ser usados editores de texto 
 
 ## Tags do HTML
 
-As tags de um documento HTML são representadas por nomes específicos que aparecem entre os sinais `<` e `>`. Algumas tags precisam ser abertas e fechadas, ao ser fechada é necessário utilizar uma barra, por exemplo, `</body>`. A tag `meta` não precisa ser fechada.
+As tags de um documento HTML são representadas por nomes específicos que aparecem entre os sinais **`<`** e **`>`**. Algumas tags precisam ser abertas e fechadas, ao ser fechada é necessário utilizar uma barra, por exemplo, **`</body>`**. A tag **`meta`** não precisa ser fechada.
 
 ## Cabeçalhos do HTML
 
-Os cabeçalhos são usados para identificar páginas e seções, eles possuem aparência diferenciada do restante do texto. Há seis níveis de cabeçalhos/títulos que são usados pelas tags `h1`, `h2`, `h3`, `h4`, `h5` e `h6`.
+Os cabeçalhos são usados para identificar páginas e seções, eles possuem aparência diferenciada do restante do texto. Há seis níveis de cabeçalhos/títulos que são usados pelas tags **`h1`**, **`h2`**, **`h3`**, **`h4`**, **`h5`** e **`h6`**.
 
 ::: {.callout-note appearance="simple"}
 De acordo com as regras de SEO, é recomendado que uma página possua apenas uma tag `<h1>` que indique seu assunto, pois essa tag informa aos motores de busca qual sua principal palavra-chave.
@@ -73,7 +73,7 @@ Acrescente o seguinte código na linha 8 da primeira listagem desse documento e 
 
 ## Parágrafos do HTML
 
-Os parágrafos em um documento HTML são gerados pelas tags `<p>` e `</p>`. Os parágrafos serão dispostos na tela em forma de blocos um abaixo do outro.
+Os parágrafos em um documento HTML são gerados pelas tags **`<p>`** e **`</p>`**. Os parágrafos serão dispostos na tela em forma de blocos um abaixo do outro.
 
 Use o código abaixo e adicione na linha 8 da primeira listagem desse documento.
 
@@ -85,15 +85,15 @@ Use o código abaixo e adicione na linha 8 da primeira listagem desse documento.
 
 ## Imagens no HTML
 
-A inserção de imagens no HTML é feita através da tag `img`, que recebe no atributo `scr` o endereço do arquivo a ser carregado. Outros atributos são o `alt` que apresenta um texto alternativo caso a imagem não seja carregada e o `title` que é mostrado quando colocamos o cursos em cima da imagem.
+A inserção de imagens no HTML é feita através da tag **`img`**, que recebe no atributo **`scr`** o endereço do arquivo a ser carregado. Outros atributos são o **`alt`** que apresenta um texto alternativo caso a imagem não seja carregada e o **`title`** que é mostrado quando colocamos o cursos em cima da imagem.
 
-O código abaixo mostra a inserção da imagem `avatar.jpg`, que deve estar localizada na mesma pasta do arquivo HTML. Acrescente ao código do primeiro exemplo para visualizar a figura.
+O código abaixo mostra a inserção da imagem **`avatar.jpg`**, que deve estar localizada na mesma pasta do arquivo HTML. Acrescente ao código do primeiro exemplo para visualizar a figura.
 
 ``` r
 <img src="avatar.png" alt="Texto alternativo" title="Avatar" />
 ```
 
-Além da tag `img`, também são utilizadas as tags `figure` para abrir e fechar o código de uma imagem e a tag `figcaption` para adicionar uma legenda na figura. Veja o código abaixo:
+Além da tag **`img`**, também são utilizadas as tags **`figure`** para abrir e fechar o código de uma imagem e a tag **`figcaption`** para adicionar uma legenda na figura. Veja o código abaixo:
 
 ``` r
 <figure>
@@ -105,9 +105,9 @@ Além da tag `img`, também são utilizadas as tags `figure` para abrir e fechar
 
 ## Links no HTML
 
-Os links adicionados são feitos para direcionar o leitor para outra página da internet ou para partes da mesma página. Nesses casos é utilizada a tag `a`, que possui o atributo `href` que irá indicar o destino do link.
+Os links adicionados são feitos para direcionar o leitor para outra página da internet ou para partes da mesma página. Nesses casos é utilizada a tag **`a`**, que possui o atributo **`href`** que irá indicar o destino do link.
 
-O código abaixo mostra a direção para a página do meu blog. Acrescente esse código ao primeiro exemplo dessa página. Lembre-se que ele deve ser adicionado dentro da aba `body`.
+O código abaixo mostra a direção para a página do meu blog. Acrescente esse código ao primeiro exemplo dessa página. Lembre-se que ele deve ser adicionado dentro da aba **`body`**.
 
 ``` r
 <a href="https://jeannefrancojra.quarto.pub/">Blog</a>
@@ -121,11 +121,11 @@ No código abaixo é mostrado como adicionar um link que direciona para um ponto
 <p id="Nota de rodapé.">Parágrafo no rodapé.</p>
 ```
 
-Note que o elemento `href` requer o sinal de serquilha (`#`).
+Note que o elemento **`href`** requer o sinal de serquilha (**`#`**).
 
 ## Tabelas no HTML
 
-As tabelas são elementos que serão organizados em linhas e colunas. No HTML elas são criadas com três tags: `table` para delimitar a tabela, `tr` (table row) para indicar as linhas, e `td` para indicar as colunas (table data). O código a seguir mostra um exemplo de tabela do HTML com três linhas e duas colunas. Acrescente ao exemplo desse documento e veja o resultado.
+As tabelas são elementos que serão organizados em linhas e colunas. No HTML elas são criadas com três tags: **`table`** para delimitar a tabela, **`tr`** (table row) para indicar as linhas, e **`td`** para indicar as colunas (table data). O código a seguir mostra um exemplo de tabela do HTML com três linhas e duas colunas. Acrescente ao exemplo desse documento e veja o resultado.
 
 ``` r
 <table>
@@ -144,7 +144,7 @@ As tabelas são elementos que serão organizados em linhas e colunas. No HTML el
 </table>
 ```
 
-Existem ainda três tags que podem ser adicionadas ao código para delimitar e organizar a tabela. O `thead` é usado para o cabeçalho; o `tbody` para o corpo e o `tfoot` para uma nota de rodapé. Veja o resultado usando o código abaixo no exemplo do documento.
+Existem ainda três tags que podem ser adicionadas ao código para delimitar e organizar a tabela. O **`thead`** é usado para o cabeçalho; o **`tbody`** para o corpo e o **`tfoot`** para uma nota de rodapé. Veja o resultado usando o código abaixo no exemplo do documento.
 
 ``` r
 <table>
@@ -179,4 +179,22 @@ Existem ainda três tags que podem ser adicionadas ao código para delimitar e o
 
 ::: {.callout-note appearance="simple"}
 Por padrão, as tabelas não possuem bordas. Isso deve ser adicionado por meio das CSS.
+:::
+
+## Listas no HTML
+
+As listas servem para organizar e ordenar itens relacionados entre si. No HTML podemos criar três tipos de listas: ordenadas com uso do **`o1`**, não ordenadas com a tag **`ul`** e de definição com a tag **`d1`**. Observe nos códigos a seguir que cada item das listas é definido pela tag **`li`**.
+
+``` r
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ol>
+```
+
+Copie e cole os códigos no link do site abaixo para ver o resultado.
+
+::: {.callout-note appearance="simple"}
+[Site para praticar HTML](https://jsfiddle.net/vs41kusf/)
 :::
