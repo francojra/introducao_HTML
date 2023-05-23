@@ -259,3 +259,33 @@ Abaixo é mostrado um exemplo de formulário com vários tipos de campo para ent
 <input type="submit" value="Enviar">
 </form>
 ```
+
+## Formatação de texto
+
+As tags de formatação de texto servem para destacar algumas palavras da página HTML. Veja as principais tags utilizadas:
+
+-   **`b`** e **`strong`** para negrito/texto forte;
+
+-   **`i`** e **`em`** para itálico/ênfase;
+
+-   **`sup`** e **`sub`** para sobrescrito e subscrito, respectivamente;
+
+-   **`ins`** e **`del`** para indicar trechos que foram incluídos ou removidos, respectivamente;
+
+-   **`small`** para textos menores que o padrão;
+
+-   **`mark`** para texto destacado.
+
+Veja no código abaixo como essas tags são utilizadas e verifique no site do HTML os resultados desse código.
+
+``` r
+<p>Texto em negrito com <b>bold</b> e <strong>strong</strong>.</p>
+<p>Texto em itálico com <i>italics<i> e <em>emphasis</em>.</p>
+<p>Texto <sup>sobrescrito</sup> e <sub>subscrito</sub>.</p>
+<p>Texto <ins>inserido</ins> e <del>excluído</del>.</p>
+<p>Texto <small>pequeno</small> e <mark>destacado</mark>.</p>
+```
+
+::: {.callout-note appearance="simple"}
+Apesar da tag \<b\> e \<strong\> terem resultados visualmente idênticos, eles têm usos diferentes. A tag \<b\> deve ser utilizada quando quer se destacar algo que é apenas visual, como por exemplo, deixar um link com mais visível. A tag \<strong\> por sua vez, além de destacar o visual, dá um destaque semântico ao texto, então se o conteúdo que você quer dar destaque é uma parte relevante do texto, utilize a tag \<strong\>. O mesmo vale para as tags \<i\> e \<em\>, onde a tag \<i\> é utilizada apenas para formatação visual e a tag \<em\>dá ênfase semântica ao texto, não devendo ser utilizada para uso puramente estético.
+:::
