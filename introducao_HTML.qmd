@@ -336,3 +336,5 @@ A tag **`src`** indica o arquivo de vídeo a ser inserido, e as tags **`width`**
 ```
 
 ## Div e Span no HTML
+
+As tags **`div`** e **`span`** são bastante utilizadas no HTML com diferentes objetivos e com grande importância para a composição do layout das páginas e formatação do texto.
