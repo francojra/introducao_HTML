@@ -289,3 +289,20 @@ Veja no código abaixo como essas tags são utilizadas e verifique no site do HT
 ::: {.callout-note appearance="simple"}
 Apesar da tag **`<b>`** e **`<strong>`** terem resultados visualmente idênticos, eles têm usos diferentes. A tag **`<b>`** deve ser utilizada quando quer se destacar algo que é apenas visual, como por exemplo, deixar um link com mais visível. A tag **`<strong>`** por sua vez, além de destacar o visual, dá um destaque semântico ao texto, então se o conteúdo que você quer dar destaque é uma parte relevante do texto, utilize a tag **`<strong>`**. O mesmo vale para as tags **`<i>`** e **`<em>`**, onde a tag **`<i>`** é utilizada apenas para formatação visual e a tag **`<em>`** dá ênfase semântica ao texto, não devendo ser utilizada para uso puramente estético.
 :::
+
+## Áudio no HTML
+
+Também podemos inserir áudio na página HTML. Para isso, utilizamos a tag **`audio`**, como listado abaixo:
+
+``` r
+<audio controls src="musica.mp3" >
+Seu browser não suporta áudio.
+</audio>
+```
+
+O atributo **`scr`** aponta para o arquivo de áudio que será executado (MP3, OGG ou WAV). O atributo **`controls`** indica a exibição de controles para gerenciamento do áudio (botões play, pause, etc.). Outros atributos como **`autoplay`**, que faz o áudio ser executado automaticamente, e **`loop`**, para que o áudio seja executado repetidamente, também merecem destaque.
+
+::: {.callout-note appearance="simple"}
+O texto "Seu browser não suporta o áudio" será exibido caso
+ele não ofereça suporte a essa tag.
+:::
