@@ -204,7 +204,7 @@ As listas servem para organizar e ordenar itens relacionados entre si. No HTML p
 Copie e cole os códigos no link do site abaixo para ver o resultado.
 
 ::: {.callout-note appearance="simple"}
-[Site para praticar HTML](https://jsfiddle.net/vs41kusf/). Clique no botão **`run`** para correr o código.
+[Site para praticar HTML](https://jsfiddle.net/). Clique no botão **`run`** para correr o código.
 :::
 
 Para as listas ordenadas também temos o atributo **`type`** que permite especificar o tipo de marcador a ser usado: números padrão, números romanos e letras.
@@ -229,7 +229,7 @@ Os valores permitidos usam os seguintes tipos de numeração:
 
 -   A - letras maiúsculas
 
-As listas de definição tem um comportamento diferente, uma vez que cada item é composto por um título (**`dt`**) e uma definição (**`dd`**), semelhante ao que ocorre em dicionários. Na listagem abaixo temos esse tipo de exemplo. Utilize o site do HTML para ver o resultado.
+As listas de definição tem um comportamento diferente, uma vez que cada item é composto por um título (**`dt`**) e uma definição (**`dd`**), semelhante ao que ocorre em dicionários. Na listagem abaixo temos esse tipo de exemplo. Utilize o [site do HTML](https://jsfiddle.net/) para ver o resultado.
 
 ``` r
 <dl>
@@ -248,7 +248,7 @@ Formulários são utilizados para integrar a página HTML a algum processamento 
 
 No HTML usamos a tag **`form`** para delimitar a área na qual se encontram os campos a serem preenchidos pelo usuário, a fim de serem enviados para processamento no back-end (a página HTML é chamada de front-end de aplicação).
 
-Abaixo é mostrado um exemplo de formulário com vários tipos de campo para entrada de dados e botões para submeter os dados ao servidor. Utilize o site do HTML para ver o resultado.
+Abaixo é mostrado um exemplo de formulário com vários tipos de campo para entrada de dados e botões para submeter os dados ao servidor. Utilize o [site do HTML](https://jsfiddle.net/) para ver o resultado.
 
 ``` r
 <form action="salvar_dados.php" method="post">
@@ -276,7 +276,7 @@ As tags de formatação de texto servem para destacar algumas palavras da págin
 
 -   **`mark`** para texto destacado.
 
-Veja no código abaixo como essas tags são utilizadas e verifique no site do HTML os resultados desse código.
+Veja no código abaixo como essas tags são utilizadas e verifique no [site do HTML](https://jsfiddle.net/) os resultados desse código.
 
 ``` r
 <p>Texto em negrito com <b>bold</b> e <strong>strong</strong>.</p>
@@ -303,11 +303,10 @@ Seu browser não suporta áudio.
 O atributo **`scr`** aponta para o arquivo de áudio que será executado (MP3, OGG ou WAV). O atributo **`controls`** indica a exibição de controles para gerenciamento do áudio (botões play, pause, etc.). Outros atributos como **`autoplay`**, que faz o áudio ser executado automaticamente, e **`loop`**, para que o áudio seja executado repetidamente, também merecem destaque.
 
 ::: {.callout-note appearance="simple"}
-O texto "Seu browser não suporta o áudio" será exibido caso
-ele não ofereça suporte a essa tag.
+O texto "Seu browser não suporta o áudio" será exibido caso ele não ofereça suporte a essa tag.
 :::
 
-É possível fornecer mais de um tipo de arquivo de áudio. Nesse caso, adicionamos a tag **`source`** como no exemplo abaixo. Caso um dos áudios não seja localizado, o browser buscará imediatamento o próximo. Acesse o link do site do HTML para ver o resultado desse tipo de código.
+É possível fornecer mais de um tipo de arquivo de áudio. Nesse caso, adicionamos a tag **`source`** como no exemplo abaixo. Caso um dos áudios não seja localizado, o browser buscará imediatamento o próximo. Acesse o [site do HTML](https://jsfiddle.net/) para ver o resultado desse tipo de código.
 
 ``` r
 <audio controls src="musica.mp3">
@@ -326,7 +325,7 @@ Seu browser não suporta vídeo HTML5.
 </video>
 ```
 
-A tag **`src`** indica o arquivo de vídeo a ser inserido, e as tags **`width`** e **`height`** indicam a largura e altura, respectivamente, da tela do vídeo que aparecerá na página. Quando o browser não suportar o formato mp4, aparecerá a mensagem "Seu browser não suporta vídeo HTML5.". Quando desejarmos informar mais de um tipo de formato de vídeo como opções de carregamento, adicionamos duas linhas de código com os outros tipos de vídeo. Então, os formatos suportados serão MP4, WebM e OGG. Veja e teste o código abaixo para ver o resultado.
+A tag **`src`** indica o arquivo de vídeo a ser inserido, e as tags **`width`** e **`height`** indicam a largura e altura, respectivamente, da tela do vídeo que aparecerá na página. Quando o browser não suportar o formato mp4, aparecerá a mensagem "Seu browser não suporta vídeo HTML5.". Quando desejarmos informar mais de um tipo de formato de vídeo como opções de carregamento, adicionamos duas linhas de código com os outros tipos de vídeo. Então, os formatos suportados serão MP4, WebM e OGG. Veja e teste o código abaixo no [site do HTML](https://jsfiddle.net/) para ver o resultado.
 
 ``` r
 <video width="640" height="480" controls>
@@ -339,7 +338,7 @@ A tag **`src`** indica o arquivo de vídeo a ser inserido, e as tags **`width`**
 
 As tags **`div`** e **`span`** são bastante utilizadas no HTML com diferentes objetivos e com grande importância para a composição do layout das páginas e formatação do texto.
 
-A tag **`div`** pode ser utilizada para agrupar elementos dentro de um bloco que pode conter dimensões e posições definidas. Por padrão, uma **`div`** não apresenta características visuais definidas, isso precisa ser feito via CSS que atribui bordas, cores, etc. A tag **`div`** automaticamente gera uma nova linha no layout semelhante a um parágrafo, ao invés de ser alocado lateralmente com os demais componentes. Veja o exemplo abaixo e execute o código no site do HTML mencionado.
+A tag **`div`** pode ser utilizada para agrupar elementos dentro de um bloco que pode conter dimensões e posições definidas. Por padrão, uma **`div`** não apresenta características visuais definidas, isso precisa ser feito via CSS que atribui bordas, cores, etc. A tag **`div`** automaticamente gera uma nova linha no layout semelhante a um parágrafo, ao invés de ser alocado lateralmente com os demais componentes. Veja o exemplo abaixo e execute o código no [site do HTML](https://jsfiddle.net/).
 
 ``` r
 <input type="text" value="input 1">
@@ -348,7 +347,7 @@ A tag **`div`** pode ser utilizada para agrupar elementos dentro de um bloco que
 <div><input type="text" value="input 4"></div>
 ```
 
-A tag **`span`** também não possui nenhuma característica visual, que precisa ser definido via CSS. O **`span`** serve como um completo aos atributos do CSS que serão definidos para a página. Veja o exemplo de código abaixo para entender o uso da tag **`span`**. Verifique no site do HTML que o texto somente é modificado quando adicionamos as funções do CSS.
+A tag **`span`** também não possui nenhuma característica visual, que precisa ser definido via CSS. O **`span`** serve como um completo aos atributos do CSS que serão definidos para a página. Veja o exemplo de código abaixo para entender o uso da tag **`span`**. Verifique no [site do HTML](https://jsfiddle.net/) que o texto somente é modificado quando adicionamos as funções do CSS.
 
 ``` r
 <p>Este é um texto com um <span>
