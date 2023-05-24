@@ -338,3 +338,12 @@ A tag **`src`** indica o arquivo de vídeo a ser inserido, e as tags **`width`**
 ## Div e Span no HTML
 
 As tags **`div`** e **`span`** são bastante utilizadas no HTML com diferentes objetivos e com grande importância para a composição do layout das páginas e formatação do texto.
+
+A tag **`div`** pode ser utilizada para agrupar elementos dentro de um bloco que pode conter dimensões e posições definidas. Por padrão, uma **`div`** não apresenta características visuais definidas, isso precisa ser feito via CSS que atribui bordas, cores, etc. A tag **`div`** automaticamente gera uma nova linha no layout semelhante a um parágrafo, ao invés de ser alocado lateralmente com os demais componentes. Veja o exemplo abaixo e execute o código no site do HTML mencionado.
+
+``` r
+<input type="text" value="input 1">
+<input type="text" value="input 2">
+<div><input type="text" value="input 3"></div>
+<div><input type="text" value="input 4"></div>
+```
