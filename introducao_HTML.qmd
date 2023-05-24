@@ -359,3 +359,7 @@ style="background: #1abc9c; border-radius:5px; padding:5px">
 trecho em destaque</span>.
 </p>
 ```
+
+## Referência
+
+[HTML básico - códigos HTML](https://www.devmedia.com.br/html-basico-codigos-html/16596)
