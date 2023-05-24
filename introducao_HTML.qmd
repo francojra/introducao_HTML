@@ -295,7 +295,7 @@ Apesar da tag **`<b>`** e **`<strong>`** terem resultados visualmente idênticos
 Também podemos inserir áudio na página HTML. Para isso, utilizamos a tag **`audio`**, como listado abaixo:
 
 ``` r
-<audio controls src="musica.mp3" >
+<audio controls src="musica.mp3">
 Seu browser não suporta áudio.
 </audio>
 ```
@@ -306,3 +306,12 @@ O atributo **`scr`** aponta para o arquivo de áudio que será executado (MP3, O
 O texto "Seu browser não suporta o áudio" será exibido caso
 ele não ofereça suporte a essa tag.
 :::
+
+É possível fornecer mais de um tipo de arquivo de áudio. Nesse caso, adicionamos a tag **`source`** como no exemplo abaixo. Caso um dos áudios não seja localizado, o browser buscará imediatamento o próximo. Acesse o link do site do HTML para ver o resultado desse tipo de código.
+
+``` r
+<audio controls src="musica.mp3">
+<source src="musica.ogg" type="audio/ogg">
+<source src="musica.mp3" type="audio/mpeg">
+</audio>
+```
