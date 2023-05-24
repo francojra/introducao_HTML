@@ -315,3 +315,24 @@ ele não ofereça suporte a essa tag.
 <source src="musica.mp3" type="audio/mpeg">
 </audio>
 ```
+
+## Vídeo no HTML
+
+Da mesma forma que os áudios, também podemos inserir arquivos de vídeo na página utilizando a tag **`video`**. Veja o código abaixo:
+
+``` r
+<video src="video.mp4" width="640" height="480" controls>
+Seu browser não suporta vídeo HTML5.
+</video>
+```
+
+A tag **`src`** indica o arquivo de vídeo a ser inserido, e as tags **`width`** e **`height`** indicam a largura e altura, respectivamente, da tela do vídeo que aparecerá na página. Quando o browser não suportar o formato mp4, aparecerá a mensagem "Seu browser não suporta vídeo HTML5.". Quando desejarmos informar mais de um tipo de formato de vídeo como opções de carregamento, adicionamos duas linhas de código com os outros tipos de vídeo. Então, os formatos suportados serão MP4, WebM e OGG. Veja e teste o código abaixo para ver o resultado.
+
+``` r
+<video width="640" height="480" controls>
+<source src="video.webm" type="video/webm">
+<source src="video.mp4" type="video/mp4">
+</video>
+```
+
+## Div e Span no HTML
